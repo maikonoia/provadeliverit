@@ -50,7 +50,9 @@ O projetos estará acessivel na url:
 
 Para adicionar um novo participante:
 [http://localhost:8000/api/participants](http://localhost:8000/api/participants)
+
 Metodo POST
+
 ```javascript
 {
     "name":"Flávio Pacheco",
@@ -61,7 +63,9 @@ Metodo POST
 
 Para adicionar uma nova corrida:
 [http://localhost:8000/api/racings](http://localhost:8000/api/racings)
+
 Metodo POST
+
 ```javascript
 {
     "distance":2,
@@ -71,6 +75,9 @@ Metodo POST
 
 Para adicionar um participante a uma corrida:
 [http://localhost:8000/api/race-participants](http://localhost:8000/api/race-participants)
+
+Metodo POST
+
 ```javascript
 {
     "participant": 1,
@@ -82,8 +89,10 @@ Para adicionar um participante a uma corrida:
 
 Para exibir a lista de resultados:
 Metodo GET
+
 [ http://localhost:8000/api/results](http://localhost:8000/api/results)
 
 Para exibir a lista de resultados por idade:
 Metodo GET
+
 [ http://localhost:8000/api/results?age=1](http://localhost:8000/api/results?age=1)
