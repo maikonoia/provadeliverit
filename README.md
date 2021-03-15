@@ -85,4 +85,5 @@ Metodo GET
 [ http://localhost:8000/api/results](http://localhost:8000/api/results)
 
 Para exibir a lista de resultados por idade:
+Metodo GET
 [ http://localhost:8000/api/results?age=1](http://localhost:8000/api/results?age=1)
